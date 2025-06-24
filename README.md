@@ -3,6 +3,17 @@
 Official Code for [ICCV2023] Paper *"Exploring Video Quality Assessment on User Generated Contents from Aesthetic and Technical Perspectives"*. 
 Official Code, Demo, Weights for the [Disentangled Objective Video Quality Evaluator (DOVER)](arxiv.org/abs/2211.04894).
 
+## Installation
+
+```shell 
+cd DOVER 
+pip install -e .  
+mkdir pretrained_weights 
+cd pretrained_weights 
+wget https://github.com/QualityAssessment/DOVER/releases/download/v0.1.0/DOVER.pth 
+wget https://github.com/QualityAssessment/DOVER/releases/download/v0.5.0/DOVER-Mobile.pth
+cd ..
+
 ## Usage
 
 ```
