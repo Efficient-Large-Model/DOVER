@@ -3,9 +3,15 @@
 Official Code for [ICCV2023] Paper *"Exploring Video Quality Assessment on User Generated Contents from Aesthetic and Technical Perspectives"*. 
 Official Code, Demo, Weights for the [Disentangled Objective Video Quality Evaluator (DOVER)](arxiv.org/abs/2211.04894).
 
+## Usage
+
+```
+python run.py --job_id $idx --data_path $DATA_PATH --save_dir $SAVE_DIR
+```
+
+Example slurm scripts in `scripts`
 
 ## Introduction
-
 
 *In-the-wild UGC-VQA is entangled by aesthetic and technical perspectives, which may result in different opinions on the term **QUALITY**.*
 
