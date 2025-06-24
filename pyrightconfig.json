@@ -1,0 +1,15 @@
+{
+    "exclude": [
+      "**/.git",
+      "**/node_modules",
+      "**/__pycache__",
+      "**/dist",
+      "**/build",
+      "**/out",
+      "**/*.log",
+      "**/*.tmp",
+      "data/**",
+      "**/output/**",
+      "**/wandb/**"
+    ]
+}

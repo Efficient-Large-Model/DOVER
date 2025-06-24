@@ -1,0 +1,14 @@
+.eggs
+.github
+data
+demo
+dover_predictions
+*.egg-info
+**/__pycache__
+**/_pycache
+**/_pycache/
+**/_pycache/**
+**/_pycache/**/
+**/_pycache/**/
+output
+pretrained_weights

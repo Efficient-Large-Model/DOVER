@@ -314,7 +314,7 @@ class UnifiedFrameSampler:
 
     def __call__(self, total_frames, train=False, start_index=0):
         frame_inds = []
-
+        # import ipdb; ipdb.set_trace()
         for i in range(self.num_clips):
             frame_inds += [self.get_frame_indices(total_frames)]
 
