@@ -61,8 +61,10 @@ def process_zip(zip_path, output_json, save_interval=5000):
         
         try:
             for name in mp4_files:
-                key = os.path.splitext(os.path.basename(name))[0]
-                
+                if "mjv" in zip_path:
+                    key = os.path.splitext(name)[0]
+                else:
+                    key = os.path.splitext(os.path.basename(name))[0]
                 # 跳过已处理的文件
                 if key in scores:
                     continue

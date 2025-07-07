@@ -5,7 +5,7 @@ demo
 dover_predictions
 dover_predictions/**
 *.egg-info
-**/__pycache__
+**/__pycache__/**
 **/_pycache
 **/_pycache/
 **/_pycache/**
@@ -13,3 +13,5 @@ dover_predictions/**
 **/_pycache/**/
 output
 pretrained_weights
+# scripts
+**/*.pyc
